@@ -21,12 +21,12 @@ compute = (a, b) => a + b;
 // object
 let obj: {x: number, y: number} = {x: 1, y: 2}
 obj.x = 4;
-console.log(obj)
+// console.log(obj)
 
 // symbol
 let s1: symbol = Symbol();
 let s2 = Symbol();
-console.log(s1 === s2)
+// console.log(s1 === s2)
 
 // undefined, null
 let un:undefined = undefined;
