@@ -28,3 +28,13 @@ log1.run(2)
 let log2 = new Log();
 log2.run(3);
 log2.run({a: 1, b: 2})
+
+//范型约束
+interface Length {
+    length: number;
+}
+function log<T extends Length>(value: T): T {
+    console.log(value, value.length)
+    return value
+}
+

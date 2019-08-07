@@ -19,7 +19,7 @@ class Dog {
 console.log(Dog.prototype)
 
 let dog = new Dog('wangwang')
-// console.log(dog)
+console.log(dog)
 // console.log(Dog.food)
 // dog.pro();
 
@@ -49,7 +49,7 @@ abstract class Animal {
     eat() {
         console.log('eat')
     }
-    abstract sleep(): void
+    abstract sleep(): void;
 }
 
 class Meow extends Animal {

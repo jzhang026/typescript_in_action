@@ -1,7 +1,7 @@
 let a:number|undefined|null = 3;
 let b:string = 'as0';
 let bool:boolean = true;
-
+let d = '4';
 // array
 let arr1 : number[] = [1,2,3];
 let arr2 : Array<number> = [1,2];
@@ -29,7 +29,7 @@ let s2 = Symbol();
 // console.log(s1 === s2)
 
 // undefined, null
-let un:undefined = undefined;
+let un: undefined = undefined;
 let nu: null = null;
 a = undefined;
 a = null;
